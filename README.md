@@ -20,6 +20,7 @@
 ## 檔案結構
 
 以下是專案的檔案結構：
+```
 your-project/
 │
 ├── data/ # 資料檔案夾
@@ -38,6 +39,7 @@ your-project/
 ├── requirements.txt # 依賴套件
 ├── README.md # 這個檔案
 └── LICENSE # 許可證
+```
 
 ## 安裝與設定
 
