@@ -54,7 +54,7 @@ DLCV_team10/
 
 ### 使用 Anaconda 建立虛擬環境
 
-1. 開啟 Anaconda Prompt，並使用以下指令建立一個新的虛擬環境：
+開啟 Anaconda Prompt，並使用以下指令建立一個新的虛擬環境：
 
 ```bash
 conda env create -f your_path/team_10.yml
