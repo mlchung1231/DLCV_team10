@@ -30,20 +30,15 @@ DLCV_team10/
 │ ├── 3class
 │ ├── 4class(trial and wall only)
 │
-├── labelTool/
 ├── test_data/
 |
 ├── best_model_class.h5
 ├── best_model_crack.pth
 ├── best_model_damage.pth
-├── file structure_crack_classification.txt
-├── file structure_damage_classification.txt
-├── file structure_damage_detection.txt
 |
 ├── HW4_class.ipynb
 ├── HW4_crack.ipynb
 ├── HW4_damage.ipynb
-├── HW4_label_csv.ipynb
 ├── HW4_predict.ipynb
 |
 ├── team_10.yml
@@ -58,3 +53,6 @@ DLCV_team10/
 
 ```bash
 conda env create -f your_path/team_10.yml
+```
+
+## 執行預測
