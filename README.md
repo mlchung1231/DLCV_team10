@@ -56,4 +56,9 @@ conda env create -f your_path/team_10.yml
 ```
 
 ## 執行程式
+### 訓練模型(可選)
+分別執行HW4_class.ipynb、HW4_crack.ipynb、HW4_damage.ipynb三個程式後，可得best_model_class.h5、best_model_crack.pth、best_model_damage.pth三個模型。
+
+### 預測結果上傳
+執行 `HW4_predict.ipynb`
 
