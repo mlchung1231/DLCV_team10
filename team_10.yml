@@ -11,6 +11,8 @@ dependencies:
   - pip=24.2
   - pip:
       - ipykernel==6.29.5
+      - pip tqdm==4.67.1
+      - pip sklearn==1.5.1
       - torch==2.1.0+cu118
       - torchvision==0.16.0+cu118
       - torchaudio==2.1.0

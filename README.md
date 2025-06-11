@@ -55,4 +55,5 @@ DLCV_team10/
 conda env create -f your_path/team_10.yml
 ```
 
-## 執行預測
+## 執行程式
+
