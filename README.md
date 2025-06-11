@@ -1,7 +1,5 @@
 # DLCV_team10
 
-簡單描述專案的目的、功能以及如何設置和使用這個專案。
-
 ## 雲端檔案
 
 - **Model**
@@ -52,11 +50,11 @@ DLCV_team10/
 ├── README.md
 ```
 
-## 安裝與設定
+## 安裝環境
 
 ### 使用 Anaconda 建立虛擬環境
 
 1. 開啟 Anaconda Prompt，並使用以下指令建立一個新的虛擬環境：
 
 ```bash
-conda create --name myenv python=3.8
+conda env create -f your_path/team_10.yml
