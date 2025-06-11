@@ -4,43 +4,52 @@
 
 ## 雲端檔案
 
-- [模型]
-    - 123
-    - 456
-- [檔案結構](#檔案結構)
-- [安裝與設定](#安裝與設定)
-- [使用 Anaconda Prompt 指令](#使用-anaconda-prompt-指令)
-- [License](#license)
-
-## 專案介紹
-
-這個專案的目的是為了 [描述專案的目的或功能]。它包括了以下的核心功能：
-- [功能1]
-- [功能2]
-- [功能3]
+- **Model**
+    - best_model_class.h5
+    - best_model_crack.pth
+    - best_model_damage.pth
+- **Dataset**
+    - crack_classification
+    - damage_classification_forTrain
+    - damage_detection
 
 ## 檔案結構
 
-以下是專案的檔案結構：
+下載完雲端檔案後，請確保資料夾結構如下：
 ```
-your-project/
+DLCV_team10/
 │
-├── data/ # 資料檔案夾
-│ ├── dataset.csv # 資料集
-│ └── test_data.csv # 測試資料
+├── crack_classification/
+│ ├── original/
+│ ├── resized/
 │
-├── src/ # 主要程式碼目錄
-│ ├── init.py # 初始化檔案
-│ ├── main.py # 主要程式碼
-│ ├── data_preprocessing.py # 資料處理程式
-│ └── model.py # 模型程式碼
+├── damage_classification_forTrain/
+│ ├── beam_damage/
+│ ├── column_damage/
+│ ├── wall_damage/
 │
-├── env/ # 虛擬環境設定檔
-│ └── environment.yml # Anaconda 環境設定檔
+├── damage_detection/
+│ ├── 3class
+│ ├── 4class(trial and wall only)
 │
-├── requirements.txt # 依賴套件
-├── README.md # 這個檔案
-└── LICENSE # 許可證
+├── labelTool/
+├── test_data/
+|
+├── best_model_class.h5
+├── best_model_crack.pth
+├── best_model_damage.pth
+├── file structure_crack_classification.txt
+├── file structure_damage_classification.txt
+├── file structure_damage_detection.txt
+|
+├── HW4_class.ipynb
+├── HW4_crack.ipynb
+├── HW4_damage.ipynb
+├── HW4_label_csv.ipynb
+├── HW4_predict.ipynb
+|
+├── team_10.yml
+├── README.md
 ```
 
 ## 安裝與設定
