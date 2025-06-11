@@ -9,7 +9,7 @@
 - **Dataset**
     - crack_classification
     - damage_classification_forTrain
-    - damage_detection
+    - damage_detection (檔案太大無法上傳)
 
 ## 檔案結構
 
@@ -57,8 +57,8 @@ conda env create -f your_path/team_10.yml
 
 ## 執行程式
 ### 訓練模型(可選)
-選擇環境名稱為`team_10`，分別執行 `HW4_class.ipynb` 、 `HW4_crack.ipynb` 、 `HW4_damage.ipynb` 三個程式後，可得 `best_model_class.h5` 、 `best_model_crack.pth` 、 `best_model_damage.pth` 三個模型。
+選擇環境名稱為`team_10`，分別執行 `HW4_class.ipynb` 、 `HW4_crack.ipynb` 、 `HW4_damage.ipynb` 三個程式後，可得 `best_model_class.h5` 、 `best_model_crack.pth` 、 `best_model_damage.pth` 三個模型。(`damage`因資料太大無法上傳，請直接使用`best_model_damage.pth`)
 
 ### 預測結果上傳
-同樣選擇環境名稱為`team_10`，執行 `HW4_predict.ipynb` 後，會在`./test_data/col.csv`生成預測結果。
+同樣選擇環境名稱為`team_10`，執行 `HW4_predict.ipynb` 後，會在`./test_data/`中生成`beam.csv`、`column.csv`、`wall.csv`的預測結果。
 
